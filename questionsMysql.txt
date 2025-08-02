@@ -1,0 +1,16 @@
+  1. Qual comando é usado para criar um novo banco de dados em MySQL?
+    R: CREATE DATABASE funcionarios;
+
+  2. Como você pode atualizar o salário de um funcionário na tabela funcionarios para 8000 onde o nome é 'Alice'?
+    R: UPDATE funcionarios SET salario = 8000 WHERE nome = 'Alice';
+
+  3. Se eu executar uma consulta DELETE FROM funcionarios, o que acontece com a estrutura da tabela e com os dados nela contidos? (Explique se a estrutura da tabela permanece ou se é removida junto com os dados).
+    R: A estrutura da tabela permanece intacta, ou seja, as colunas, índices e definições continuam lá, mas todos os dados/linhas são removidos, deixando a tabela vazia.
+
+  4. Explique a diferença entre INNER JOIN, LEFT JOIN e RIGHT JOIN. Dê um exemplo onde LEFT JOIN e RIGHT JOIN retornam os mesmos resultados, explicando o motivo.
+    R:
+    INNER JOIN: Retorna apenas os registros que existem em ambas as tabelas, ou seja, a interseção das tabelas segundo a condição de junção.
+
+    LEFT JOIN: Retorna todas as linhas da tabela da esquerda e os dados correspondentes da tabela da direita. Se não houver correspondência na tabela da direita, os campos dela aparecem como NULL.
+
+    RIGHT JOIN: Retorna todas as linhas da tabela da direita e os dados correspondentes da tabela da esquerda, com NULL quando não houver correspondência.
