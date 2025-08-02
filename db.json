@@ -1,7 +1,28 @@
 {
   "funcionarios": [
-    { "id": 1, "nome": "Alice", "cargo": "Desenvolvedora", "salario": 7000 },
-    { "id": 2, "nome": "Bob", "cargo": "Designer", "salario": 5000 },
-    { "id": 3, "nome": "Carol", "cargo": "Gerente de Projetos", "salario": 9000 }
+    {
+      "id": "1",
+      "nome": "Alice",
+      "cargo": "Desenvolvedora",
+      "salario": 7000
+    },
+    {
+      "id": "2",
+      "nome": "Bob",
+      "cargo": "Designer",
+      "salario": 5000
+    },
+    {
+      "id": "3",
+      "nome": "Carol",
+      "cargo": "Gerente de Projetos",
+      "salario": 9000
+    },
+    {
+      "id": "3bd1",
+      "nome": "Ryan",
+      "cargo": "Desenvolvedor",
+      "salario": 1000
+    }
   ]
 }

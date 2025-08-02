@@ -1,3 +1,5 @@
+//.. stacktrace
+
 type AppError = {
   statusCode: number;
   message: string;
